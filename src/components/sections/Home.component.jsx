@@ -1,3 +1,5 @@
+import image from "../../assets/gallery/profile.png";
+
 export default function Home() {
   return (
     <main className="w-full z-10 h-[calc(100vh-80px)] flex items-center relative">
@@ -17,7 +19,6 @@ export default function Home() {
           contar historias a través de la belleza de la fotografía.
         </p>
         <section className="flex gap-2">
-          
           <a
             href="#gallery"
             className="text-indigo-400 border whitespace-nowrap flex items-center w-fit px-6 py-2 rounded-full border-indigo-400 gap-3"
