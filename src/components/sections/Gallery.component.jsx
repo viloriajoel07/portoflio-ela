@@ -17,7 +17,7 @@ export default function Gallery() {
               >
                 <img
                   className="w-full h-auto object-cover hover:scale-110 transition-all duration-300 bg-bottom"
-                  src={`/public/gallery/${img.imageSrc}`}
+                  src={img.imageSrc}
                   alt="Garelly Item"
                   loading="lazy"
                 />
