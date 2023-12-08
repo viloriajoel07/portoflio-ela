@@ -6,7 +6,7 @@ export default function Home() {
       <div className="w-full h-full">
         <img src={image} alt="" className="object-cover h-full" />
       </div>
-      <section className="text-white w-full flex flex-col justify-center z-10 items-center md:items-start absolute md:relative px-8 md:px-0 bg-gradient-to-tr from-black h-full">
+      <section className="text-white w-full flex flex-col justify-center z-10 items-center md:items-start absolute md:relative px-8 md:px-0 bg-gradient-to-tr md:from-black from-black/50 h-full">
         <span className="w-12 h-12 rounded-full bg-indigo-500 absolute blur-2xl "></span>
         <p className="text-indigo-200 uppercase w-fit mb-6 border-b border-indigo-200">
           Fotografa Freelance

@@ -1,6 +1,7 @@
 import Home from "./components/sections/Home.component";
 import Header from "./components/header.component";
 import Gallery from "./components/sections/Gallery.component";
+import Footer from "./components/sections/Footer.component";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Home />
       <Gallery />
+      <Footer />
     </main>
   );
 }

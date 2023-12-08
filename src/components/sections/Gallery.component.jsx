@@ -4,19 +4,16 @@ export default function Gallery() {
   return (
     <div className="flex justify-center" id="gallery">
       <main className="w-full min-h-screen max-w-[80rem] flex flex-col items-center py-14">
-        <h1 className="text-4xl font-semibold text-indigo-500 uppercase">
+        <h1 className="text-4xl font-semibold text-indigo-500 uppercase mb-4">
           Mi Galeria
         </h1>
 
-        <div className="mt-6 flex flex-wrap justify-center gap-6 px-8 md:px-0">
+        <div className="sec-gallery">
           {images.map((img) => {
             return (
-              <div
-                key={img.id}
-                className="cursor-pointer flex items-center overflow-hidden rounded-lg shadow-lg relative w-full md:w-80 h-auto md:h-64 border-2 border-white/10"
-              >
+              <div className="pics p-2" key={img.id}>
                 <img
-                  className="w-full h-auto object-cover hover:scale-110 transition-all duration-300 bg-bottom"
+                  className="w-full rounded-lg h-auto object-cover hover:scale-105 transition-all duration-300 bg-bottom hover:border-2 hover:border-indigo-500"
                   src={img.imageSrc}
                   alt="Garelly Item"
                   loading="lazy"
